@@ -1,0 +1,7 @@
+{
+  "buildCommand": "cd se-2-challenges/challenge-simple-nft-example && yarn build",
+  "outputDirectory": "se-2-challenges/challenge-simple-nft-example/packages/nextjs/.next",
+  "installCommand": "cd se-2-challenges/challenge-simple-nft-example && yarn install",
+  "framework": "nextjs",
+  "rootDirectory": "se-2-challenges/challenge-simple-nft-example/packages/nextjs"
+}
