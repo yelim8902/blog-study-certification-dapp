@@ -1,162 +1,176 @@
-# 🏗 Scaffold-ETH 2 Challenges
+# 🎯 Blog Study Certification DApp with DAO System
 
-**Learn how to use 🏗 Scaffold-ETH 2 to create decentralized applications on Ethereum. 🚀**
-
----
-
-## 🚩 Challenge: 🎟 Simple NFT Example
-
-🎫 Create a simple NFT to learn the basics of 🏗 scaffold-eth. You'll use 👷‍♀️ HardHat to compile and deploy smart contracts. Then, you'll use a template React app full of important Ethereum components and hooks. Finally, you'll deploy an NFT to a public network to share with friends! 🚀
-
-[Challenge Extension](https://github.com/scaffold-eth/se-2-challenges/tree/challenge-simple-nft-example)
+**블로그 공부 인증서 DApp - 리서치팀 & 개발팀으로 공부 목표 달성하고 NFT 인증서 받기! 🚀**
 
 ---
 
-## 🚩 Challenge: 🔏 Decentralized Staking App
+## ✨ 핵심 기능
 
-🦸 A superpower of Ethereum is allowing you, the builder, to create a simple set of rules that an adversarial group of players can use to work together. In this challenge, you create a decentralized application where users can coordinate a group funding effort. If the users cooperate, the money is collected in a second smart contract. If they defect, the worst that can happen is everyone gets their money back. The users only have to trust the code.
+### 🆓 무료로 인증서 만들기
+- 블로그 URL만 입력하면 즉시 NFT 인증서 발급
+- IPFS에 메타데이터 저장으로 영구 보관
+- 공부한 내용을 블록체인에 영원히 기록
 
-[Challenge Extension](https://github.com/scaffold-eth/se-2-challenges/tree/challenge-decentralized-staking)
-
----
-
-## 🚩 Challenge: 🏵 Token Vendor
-
-🤖 Smart contracts are kind of like "always on" vending machines that anyone can access. Let's make a decentralized, digital currency. Then, let's build an unstoppable vending machine that will buy and sell the currency. We'll learn about the "approve" pattern for ERC20s and how contract to contract interactions work.
-
-[Challenge Extension](https://github.com/scaffold-eth/se-2-challenges/tree/challenge-token-vendor)
-
----
-
-## 🚩 Challenge: 🎲 Dice Game
-
-🎰 Randomness is tricky on a public deterministic blockchain. In this challenge you will explore creating random numbers using block hash and how that may be exploitable. Attack the dice game with your own contract by predicting the randomness ahead of time to always roll a winner!
-
-[Challenge Extension](https://github.com/scaffold-eth/se-2-challenges/tree/challenge-dice-game)
+### 💰 돈 걸고 공부하기 (DAO 시스템)
+- **🔍 리서치 팀**: 논문, 기술 조사, 트렌드 분석 (보증금: 0.01 ETH)
+- **💻 개발 팀**: 코딩, 프로젝트 구현, 기술 개발 (보증금: 0.02 ETH)
+- 목표 달성 시: 보증금 + 20% 보상 + 전문가 NFT 발급
+- 목표 실패 시: 보증금이 팀 DAO 풀로 이동
 
 ---
 
-## 🚩 Challenge: ⚖️ Build a DEX Challenge
+## 🏆 전문가 NFT 등급 시스템
 
-💵 Build an exchange that swaps ETH to tokens and tokens to ETH. 💰 This is possible because the smart contract holds reserves of both assets and has a price function based on the ratio of the reserves. Liquidity providers are issued a token that represents their share of the reserves and fees...
-
-[Challenge Extension](https://github.com/scaffold-eth/se-2-challenges/tree/challenge-dex)
-
----
-
-## 🎉 Checkpoint: Onboarding batches
-
-Dive into end-to-end dApp development, receive mentorship from BuidlGuidl members, and learn how to collaborate with fellow developers in open‑source projects.
+| 등급 | 조건 | 리서치 팀 | 개발 팀 |
+|------|------|-----------|---------|
+| 🥉 **브론즈** | 1회 달성 | 리서치 입문자 | 개발 입문자 |
+| 🥈 **실버** | 3회 달성 | 리서치 분석가 | 개발자 |
+| 🥇 **골드** | 5회 달성 | 리서치 마스터 | 개발 마스터 |
+| 💎 **플래티넘** | 10회 달성 | 리서치 전문가 | 개발 전문가 |
 
 ---
 
-## 🚩 Challenge: 🌽 Over-Collateralized Lending
+## 🛠️ 기술 스택
 
-💳 Build your own lending and borrowing platform. Let's write a contract that takes collateral and lets you borrow other assets against the value of the collateral. What happens when the collateral changes in value? We will be able to borrow more if it is higher, or if it is lower, we will also build a system for liquidating the debt position.
-
-[Challenge Extension](https://github.com/scaffold-eth/se-2-challenges/tree/challenge-over-collateralized-lending)
-
----
-
-## 🚩 Challenge: 📈 Prediction Markets
-
-🔮 Build a prediction market where users can create questions about future outcomes for others to bet on. Users can also participate in existing markets to speculate on event results. 📊 Outcome shares can be traded, with prices adjusting dynamically based on market belief. This is possible because the smart contract acts as an automated market maker (like in the DEX challenge) and adjusts odds based on supply and demand.
-
-[Challenge Extension](https://github.com/scaffold-eth/se-2-challenges/tree/challenge-prediction-markets)
+- **Frontend**: Next.js + TypeScript + Tailwind CSS + DaisyUI
+- **Blockchain**: Hardhat + Solidity + OpenZeppelin Contracts
+- **Storage**: IPFS (InterPlanetary File System)
+- **Wallet**: RainbowKit + wagmi
+- **Network**: Ethereum (Hardhat Local Network)
 
 ---
 
-## 🚩 Challenge: ⚡ Deploy to Layer 2
+## 🚀 시작하기
 
-🚀 Ethereum L2s make blockchain apps fast and cheap, bringing us closer to mainstream adoption! Most L2s are EVM compatible, meaning your app should work seamlessly across them with little to no changes—just deploy and go! In this challenge, you will deploy an app across multiple chains, including Optimism, Base, and Arbitrum, and experience the snappy, low-cost transactions while exploring how they make building scalable apps and games easier than ever.
-
-Coming soon...
-
----
-
-## 🚩 Challenge: Multisig Wallet
-
-👩‍👩‍👧‍👧 Using a smart contract as a wallet we can secure assets by requiring multiple accounts to "vote" on transactions. The contract will keep track of transactions in an array of structs and owners will confirm or reject each one. Any transaction with enough confirmations can "execute".
-
-[Challenge Extension](https://github.com/scaffold-eth/se-2-challenges/tree/challenge-multisig)
-
----
-
-## 🚩 Challenge: SVG NFT
-
-🎨 Create a dynamic SVG NFT using a smart contract. Your contract will generate on-chain SVG images and allow users to mint their unique NFTs. ✨ Customize your SVG graphics and metadata directly within the smart contract. 🚀 Share the minting URL once your project is live!
-
-[Challenge Extension](https://github.com/scaffold-eth/se-2-challenges/tree/challenge-svg-nft)
-
----
-
-## 💡 Contributing: Guide and Hints to create New Challenges
-
-### 1. Learn about SE-2 Extensions
-
-Go to [SE-2 Extensions Documentation](https://docs.scaffoldeth.io/extensions/createExtensions) and familiarize yourself with the way extensions work by watching the video and reading the overview.
-
-### 2. Follow the steps to create an extension
-
-1. Clone the [create-eth repo](https://github.com/scaffold-eth/create-eth) and cd into it.
-
+### 1. 프로젝트 클론
 ```bash
-    git clone https://github.com/scaffold-eth/create-eth
-    cd create-eth
+git clone https://github.com/yelim8902/blog-study-certification-dapp.git
+cd blog-study-certification-dapp/se-2-challenges/challenge-simple-nft-example
 ```
 
-#### Setting up things in externalExtensions:
-
-2. cd into `externalExtensions` (if it's not present `mkdir externalExtensions && cd externalExtensions`)
-
-3. Clone the base-challenge-template with name of your extension inside `externalExtensions`:
-
+### 2. 의존성 설치
 ```bash
-    git clone -b base-challenge-template https://github.com/scaffold-eth/se-2-challenges.git <my-challenge-name>
+yarn install
 ```
 
-4. cd into `<my-challenge-name>` dir and create a branch with your challenge name.
-
+### 3. 로컬 블록체인 실행
 ```bash
-    cd <my-challenge-name> && git switch -c <my-challenge-name>
+yarn chain
 ```
 
-5. Find all the file comments marked `// CHALLENGE-TODO:` and follow the instructions to prepare your challenge.
-
-6. Commit those changes as an initial commit: `git add . && git commit -m "fill template"`
-
-#### Commands to be run in create-eth repo:
-
-1. Build the create-eth cli
-
+### 4. 스마트 컨트랙트 배포
 ```bash
-    yarn build:dev
+yarn deploy
 ```
 
-2. Create an instance with same name as the challenge name directory which was created inside `externalExtensions`:
-
+### 5. 프론트엔드 실행
 ```bash
-    yarn cli ../<my-challenge-name> -e <my-challenge-name> --dev
+yarn start
 ```
 
-3. This will create the full instance outside of create-eth repo with <my-challenge-name>
+### 6. 브라우저에서 확인
+- **메인 페이지**: http://localhost:3000
+- **무료 인증서**: http://localhost:3000/myNFTs
+- **DAO 시스템**: http://localhost:3000/dao
+- **커뮤니티 검증**: http://localhost:3000/admin
 
-4. Tinker in that instance, adding any new files your challenge will use and then committing those changes
+---
 
-5. Run this in create-eth to copy all the changes to you extension:
+## 🎮 사용 방법
 
-```bash
-    yarn create-extension ../<my-challenge-name>
+### 무료 인증서 만들기
+1. 지갑 연결 (MetaMask)
+2. 블로그 URL 입력
+3. 공부 주제 선택
+4. 설명 작성
+5. "인증서 만들기" 클릭
+6. NFT 인증서 발급 완료! 🎉
+
+### 돈 걸고 공부하기
+1. **팀 선택**: 리서치 팀 또는 개발 팀
+2. **정보 입력**: 사용자 이름, 블로그 URL, 설명
+3. **보증금 예치**: 팀별 기본 보증금 자동 설정
+4. **목표 설정**: 7일 내 블로그 포스팅 완료
+5. **목표 달성**: 커뮤니티 검증 후 보상 + 전문가 NFT
+6. **전문가 등급**: 완료 횟수에 따라 등급 상승
+
+---
+
+## 🏛️ DAO 시스템
+
+### 그룹별 독립적인 보증금 풀
+- **리서치 팀 DAO 풀**: 리서치 활동 보증금만 관리
+- **개발 팀 DAO 풀**: 개발 활동 보증금만 관리
+- **실시간 업데이트**: 보증금 입출금 시 해당 팀 풀만 업데이트
+
+### 커뮤니티 검증
+- 탈중앙화된 커뮤니티가 공정하게 검증
+- 목표 달성 여부를 투표로 결정
+- Web3의 핵심 가치인 "모두의 검증" 구현
+
+---
+
+## 📁 프로젝트 구조
+
+```
+se-2-challenges/challenge-simple-nft-example/
+├── packages/
+│   ├── hardhat/                 # 스마트 컨트랙트
+│   │   ├── contracts/
+│   │   │   ├── BlogStudyCertificate.sol  # NFT 컨트랙트
+│   │   │   └── StudyDAO.sol              # DAO 컨트랙트
+│   │   └── deploy/
+│   └── nextjs/                  # 프론트엔드
+│       ├── app/
+│       │   ├── page.tsx         # 메인 페이지
+│       │   ├── myNFTs/          # NFT 발급 페이지
+│       │   ├── dao/             # DAO 시스템 페이지
+│       │   └── admin/           # 커뮤니티 검증 페이지
+│       └── utils/
+│           └── simpleNFT/
+│               └── nftsMetadata.ts  # NFT 메타데이터
 ```
 
-### 3. Testing your extension
+---
 
-Now that you ran the `create-extension` command you should see in the terminal all files that were created and any missing template files. Add any missing template files and continue to follow the instructions in the [local testing](https://docs.scaffoldeth.io/extensions/createExtensions#local-testing) section!
+## 🎯 프로젝트 특징
 
-Don't forget to add a README.md to the top level of your extension. It should match what you put in the `extraContents` variable in `extension/README.md.args.mjs`.
+- **한국어 완전 지원**: 모든 UI가 한국어로 번역
+- **친구들과 함께**: 사용자 이름으로 팀원 구분
+- **시각적 피드백**: 그룹별 DAO 풀 실시간 표시
+- **등급 시스템**: 브론즈부터 플래티넘까지 전문가 등급
+- **데모 친화적**: 실제 블록체인 없이도 동작 확인 가능
 
-Iterate as necessary, repeating the steps, to get it just right.
+---
 
-### 4. Submit a PR
+## 🤝 기여하기
 
-Once you have iterated your challenge to perfection, you can ask a maintainer to add a branch for your challenge and then submit a pull request to that branch. Expect to make a few passes of revisions as we test these challenges extensively.
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+---
+
+## 📄 라이선스
+
+이 프로젝트는 MIT 라이선스 하에 배포됩니다. 자세한 내용은 `LICENCE.txt` 파일을 참조하세요.
+
+---
+
+## 👨‍💻 개발자
+
+**yelim8902** - [GitHub](https://github.com/yelim8902)
+
+---
+
+## 🙏 감사의 말
+
+- [Scaffold-ETH 2](https://github.com/scaffold-eth/scaffold-eth-2) - 훌륭한 개발 프레임워크
+- [OpenZeppelin](https://openzeppelin.com/) - 안전한 스마트 컨트랙트 라이브러리
+- [IPFS](https://ipfs.io/) - 분산형 파일 저장소
+
+---
+
+**🎉 공부하자! 얘들아! 🎉**
